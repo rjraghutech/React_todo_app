@@ -37,66 +37,84 @@
   }
 }
 
-body {
-  background-color: grey;
-}
-.main-cont {
-  text-align: center;
-}
 
 body{
   margin: 0%;
   padding: 0%;
   text-align: center;
-  background-color: lightseagreen;
+  background-image: url("https://img.wallpapersafari.com/desktop/1600/900/57/37/bPW5Go.jpg");
   margin-top: 50px;
 }
 
 .input1{
   border: none;
-  box-shadow: 7px 7px 7px gray;
   border-radius: 10px;
   width: 250px;
   height: 30px;
- 
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: large;
+  border: 2px solid black;
 }
 
 .btn{
-  width: 70px;
+  width: 80px;
   height: 30px;
   border-radius: 10px;
- border: none;
-
+  border: 2px solid black;
+  margin-left: 5px;
+  background-color: aqua;
+  font-weight: bold;
 }
 
 .btn1{
-  background-color: green;
+  background-color: yellow;
   margin: 1px;
-  color: white;
+  color: black;
+  font-weight: bolder;
 }
 
 .btn2{
-  background-color: red;
+  background-color: black;
   margin: 2px;
   color: white;
 }
 
 .container{
-  position: absolute;
-  left: 30%;
+  /* position: absolute;
+  left: 30%; */
   margin: 30px;
+  margin-top: 0px;
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  justify-content: space-between;
+}
+
+h2 {
+  color: black;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
   width: fit-content;
-  background-color:gainsboro;
-  box-shadow: 5px 10px 5px gray;
+  padding: 5px;
+  background-color: orange;
+  margin: 10px;
+  margin-bottom: 0px;
 }
 
 .input{
-  border: none;
+  border: 2px solid black;
   border-radius: 10px;
   width: 250px;
   height: 30px;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 8px;
 }
 
 .innercontainer{
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
